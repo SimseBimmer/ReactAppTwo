@@ -14,28 +14,27 @@ export const NavBarStyled = styled.nav`
 
     li{
       display: inline-block;
-      
+      padding: 0 1px;
+
       a{
         display: block;
         padding: 0.8rem;
         text-decoration: none;
-        color: #000;
-        border-bottom: 2px solid transparent;
+        color: #27402c;
+        font-size: 1.3rem;
+        border-bottom: 2px solid #eee;
         transition: 200ms ease-in-out;
         margin: 0;
-          &.active{
+
+        &.active{
           color: #27402c;
           border-bottom: 2px solid #27402c;
           font-weight: 600;
           letter-spacing: 2px;
-          }
+          transition: 200ms ease-in-out;
+        }
       }
     }
   }
-
-
-
-
-
 `
 
