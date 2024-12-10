@@ -1,0 +1,52 @@
+// import { useState } from 'react';
+// import './App.scss';
+// import { Header } from './components/header/header';
+// import { Footer } from './components/footer/footer';
+// import { NavBar } from './components/NavBar/NavBar';
+// import { Hilsen } from './components/Hilsen/Hilsen';
+// import { Liste } from './components/Liste/Liste';
+// import { Button } from './components/Button/Button';
+
+// function App() {
+//   const [count, setCount] = useState(0);
+
+//   const livretter = ["Pizza", "Sushi", "Pasta", "Steak", "Tacos"];
+
+//   const handleAlert1 = () => alert('Knappen 1 blev klikket!');
+//   const handleAlert2 = () => alert('Knappen 2 blev klikket!');
+//   const handleAlert3 = () => alert('Knappen 3 blev klikket!');
+
+//   return (
+//     <>
+//       <Header />
+//       <NavBar />
+//       <main>
+//         <Hilsen navn="Mette" />
+//         <Liste titel="Mine Livretter" items={livretter} />
+//         <div className="button-container">
+//           <Button
+//             text="Knappen 1"
+//             size="small"
+//             theme="light"
+//             action={handleAlert1}
+//           />
+//           <Button
+//             text="Knappen 2"
+//             size="medium"
+//             theme="dark"
+//             action={handleAlert2}
+//           />
+//           <Button
+//             text="Knappen 3"
+//             size="large"
+//             theme="light"
+//             action={handleAlert3}
+//           />
+//         </div>
+//       </main>
+//       <Footer />
+//     </>
+//   );
+// }
+
+// export default App;

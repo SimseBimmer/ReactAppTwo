@@ -1,0 +1,49 @@
+/* Standard lys tema */
+.light {
+  // background-color: #ffffff;
+  color: #000;
+}
+
+/* Mørk tema */
+.dark {
+  background-color: #124418;
+  color: #fff;
+}
+
+* {
+  margin: 1px;
+  padding: 1px;
+}
+
+body {
+  font-family: "Titillium Web", serif;
+  background-color: #999;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: inherit;
+}
+
+p,
+a {
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+}
+
+.button-container button {
+  background-color: #444;
+  color: #fff;
+}
+
+.button-container button:hover {
+  background-color: #666;
+}
