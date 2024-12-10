@@ -1,5 +1,5 @@
 export const ErrorPage = () => {
     return (
-        <h1>404 - Siden blev ikke fundet</h1>
+        <h1 class="currentRoute">404 - Siden blev ikke fundet</h1>
     )
 }

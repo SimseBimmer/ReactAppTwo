@@ -7,7 +7,6 @@ export const Header = () => {
         <HeaderStyle>
             {/* <h1 className={styles.logo}>Velkommen</h1> */}
             {/* <h2>til Vite + React</h2> */}
-            <NavBar />
             {/* <p>brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst brødtekst </p> */}
         </HeaderStyle>
     )

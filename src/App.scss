@@ -1,14 +1,4 @@
-/* Standard lys tema */
-.light {
-  // background-color: #ffffff;
-  color: #000;
-}
 
-/* Mørk tema */
-.dark {
-  background-color: #124418;
-  color: #fff;
-}
 
 * {
   margin: 1px;
@@ -17,7 +7,8 @@
 
 body {
   font-family: "Titillium Web", serif;
-  background-color: #999;
+  background-color: #ffffff;
+  color: #000000;
   margin: 0;
   padding: 0;
 }
@@ -40,10 +31,27 @@ button {
 }
 
 .button-container button {
-  background-color: #444;
+  background-color: #444444;
   color: #fff;
 }
 
 .button-container button:hover {
   background-color: #666;
+}
+
+
+
+.currentRoute{
+  color: #444444;
+  transition: 200ms ease-in-out;
+  border: 2px solid #444444;
+  width: fit-content;
+  margin: 0;
+  padding: 0 .5rem;
+}
+
+.currentRoute:hover{
+  letter-spacing: 2px;
+  border-right: 6px solid red;
+  border-bottom: 4px solid red;
 }
